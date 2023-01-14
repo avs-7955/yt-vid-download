@@ -1,4 +1,4 @@
-# YouTube video downloaded
+# YouTube video downloader
 
 This script will take the link of the video as an argument in the command prompt and directly start downloading the video at 1080p resolution.
 
