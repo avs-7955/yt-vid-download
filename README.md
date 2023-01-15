@@ -2,7 +2,7 @@
 
 This script will take the link of the video as an argument in the command prompt and directly start downloading the video at the highest resolution.
 <br>
-Note: 1080p takes a lot of time compared to 720p.
+Note: 1080p takes a lot of time compared to 720p. (Not recommended for large videos)
 
 <h1 align="center">
   <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/stack_GjMfbKvDP.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1655143763495" width="55" alt="stacklogo-python" />
