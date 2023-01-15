@@ -1,6 +1,8 @@
 # YouTube video downloaded
 
-This script will take the link of the video as an argument in the command prompt and directly start downloading the video at 1080p resolution.
+This script will take the link of the video as an argument in the command prompt and directly start downloading the video at the highest resolution.
+<br>
+Note: 1080p takes a lot of time compared to 720p.
 
 <h1 align="center">
   <img src="https://ik.imagekit.io/pq7opoglh/GitHub_ReadMe/stack_GjMfbKvDP.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1655143763495" width="55" alt="stacklogo-python" />
@@ -28,13 +30,13 @@ Go to the project directory
 Run the script
 
 ```bash
-  python main.py <videolink>
+  python main_<resolution>.py <videolink>
 ```
 
-Example: Downloading the video "The art of focus – a crucial ability | Christina Bengtsson | TEDxGöteborg"
+Example: Downloading the video "The art of focus – a crucial ability | Christina Bengtsson | TEDxGöteborg" at 720p.
 
 ```bash
-  python main.py https://www.youtube.com/watch?v=xF80HzqvAoA
+  python main_720p.py https://www.youtube.com/watch?v=xF80HzqvAoA
 ```
 
 The download starts.
