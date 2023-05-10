@@ -54,7 +54,7 @@ yt_audio = YouTube(link, on_progress_callback=on_progress,
                    on_complete_callback=complete).streams.filter(only_audio=True).first().download(path)
 os.rename(yt_audio, aname)
 
-# Setting the audio to the vide0
+# Setting the audio to the video
 yt_video = mpe.VideoFileClip(vname)
 yt_audio = mpe.AudioFileClip(aname)
 final = yt_video.set_audio(yt_audio)
