@@ -35,6 +35,6 @@ yt = YouTube(link, on_progress_callback=on_progress,
 print("Title: ", yt.title)
 print("Download has started.")
 
-yt = yt.streams.get_by_itag(22)  # Getting the video of resolution 1080p.
+yt = yt.streams.get_by_itag(22)  # Getting the video of resolution 720p.
 
 yt.download(path)
